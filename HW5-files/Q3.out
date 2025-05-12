@@ -1,0 +1,8 @@
+PARSING::        Bart want -ed a duck on the sandwich .
+Tree 1 weight: 45.68
+Tree 1 parse:
+( ROOT ( S ( NP Bart ) ( VP ( V ( V want ) ( Vsuff -ed ) ) ( NP ( Det a ) ( N ( N duck ) ( PP ( P on ) ( NP ( Det the ) ( N sandwich ) ) ) ) ) ) ) ( Period . ) )
+
+Tree 2 weight: 47.79
+Tree 2 parse:
+( ROOT ( S ( NP Bart ) ( VP ( VP ( V ( V want ) ( Vsuff -ed ) ) ( NP ( Det a ) ( N duck ) ) ) ( PP ( P on ) ( NP ( Det the ) ( N sandwich ) ) ) ) ) ( Period . ) )
